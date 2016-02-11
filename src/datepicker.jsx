@@ -89,6 +89,7 @@ var DatePicker = React.createClass({
 
   onInputClick() {
     this.setOpen(true);
+    console.log("HELLO VSAI");
   },
 
   handleInputDone() {
